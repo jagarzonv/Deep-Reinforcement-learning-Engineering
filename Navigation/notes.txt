@@ -1,0 +1,44 @@
+git hub repository :  https://github.com/jagarzonv/Udacity-DRLND-Navigation.git
+or create a new repository on the command line
+echo "# Udacity-DRLND-Navigation" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jagarzonv/Udacity-DRLND-Navigation.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/jagarzonv/Udacity-DRLND-Navigation.git
+git push -u origin master
+
+mkdir repo && cd repo
+git remote add origin /path/to/origin.git
+git add .
+git commit -m "initial commit"
+git push origin master
+
+
+
+
+Video youtube:  https://youtu.be/lT4SoX9uN1E
+
+
+
+
+pip install http://download.pytorch.org/whl/cu90/torch-0.4.1-cp36-cp36m-win_amd64.whl
+pip install torchvision
+
+https://qiita.com/God_KonaBanana/items/12d35de7038556a5227e
+
+
+
+
+
+
+Monte Carlo Methods->Exploration vs. Exploitation->Setting the Value of \epsilonϵ, in Practice:
+
+Even though convergence is not guaranteed by the mathematics, you can often get better results by either:
+
+using fixed \epsilonϵ, or
+letting \epsilon_iϵ 
+i
+​	  decay to a small positive number, like 0.1.
